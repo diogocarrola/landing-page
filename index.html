@@ -3,53 +3,64 @@
   <head>
     <meta charset="UTF-8">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
     <header class="header">
+      <div class="nav-bar">
         <div class="logo">Header Logo</div>
-        <ul class="links">
-            <li><a href="https://www.google.pt/">header link one</a></li>
-            <li><a href="https://www.google.pt/">header link two</a></li>
-            <li><a href="https://www.google.pt/">header link three</a></li>
-        </ul>
-        <div class="container">
+          <ul class="links">
+              <li><a href="https://www.google.pt/">header link one</a></li>
+              <li><a href="https://www.google.pt/">header link two</a></li>
+              <li><a href="https://www.google.pt/">header link three</a></li>
+          </ul>
+        </div>
+        <div class="hero">
+          <div class="content">
             <div class="title">This website is awesome</div>
-            <div class="subtext">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</div>
-            <div class="button">
-                <button>Sign up</button>
+            <div id="subtext">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</div>
+            <div id="button">
+              <button>Sign up</button>
             </div>
-            <div class="image">this is a placeholder for an image</div>
+          </div>
+          <div class="placeholder">this is a placeholder for an image</div>
         </div>
     </header>
 
     <div class="information">
-        <div>Some random information.</div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="subtext">this is some subtext under an illustration or image</div>
-        <div class="subtext">this is some subtext under an illustration or image</div>
-        <div class="subtext">this is some subtext under an illustration or image</div>
-        <div class="subtext">this is some subtext under an illustration or image</div>
-    </div>
+        <div class="info-header">Some random information.</div>
+        <div class="cards">
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+        </div>
+        <div class="labels">
+          <div class="subtext">this is some subtext under an illustration or image</div>
+          <div class="subtext">this is some subtext under an illustration or image</div>
+          <div class="subtext">this is some subtext under an illustration or image</div>
+          <div class="subtext">this is some subtext under an illustration or image</div>
+        </div>
+      </div>
 
     <div class="quote">
         <div class="text">This is an inspiring quote, or testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</div>
         <div class="author">-Thor, God of Thunder</div>
     </div>
 
-    <div class="message">
-        <div class="time">Call to action! It's time!</div>
-        <div class="text">Sign up for our product by clicking that button rigth over there!</div>
-        <div class="button">
-            <button>Sign up</button>
-        </div>
+    <div class="sign-up">
+      <div class="message">
+        <div id="title">Call to action! It's time!</div>
+        <div id="text">Sign up for our product by clicking that button rigth over there!</div>
+      </div>
+       <div id="button">
+        <button>Sign up</button>
+      </div>
     </div>
   </body>
 
-  <footer>
+  <footer class="footer">
     Copyright &copy; The Odin Project 2021
   </footer>
 </html>
