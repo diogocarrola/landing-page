@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header,
@@ -11,7 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     height: 500px;
 }
 
@@ -19,21 +19,21 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 80%;
 }
 
 .logo {
     font-size: 24px;
     color: #f9faf8;
-    width: 700px;
     font-weight: bold;
 }
 
 .links {
     font-size: 18px;
-    font-weight: 100;
-    width: 500px;
+    font-weight: 400;
     justify-content: space-between;
     align-items: center;
+    gap: 25px;
 }
 
 a {
@@ -48,18 +48,20 @@ ul {
 
 .hero {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 300px;
-    width: 100%;
+    width: 80%;
+    padding: 100px;
 }
 
 .content {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     height: 100px;
-    width: 600px;
-    align-items: flex-start;
+    width: 37%;
+    gap: 10px;
 }
 
 .title {
@@ -71,25 +73,29 @@ ul {
 #subtext {
     color: #e5e7eb;
     font-size: 18px;
-    font-weight: 100;
+    font-weight: 400;
 }
 
-#button {
+.button-top,
+.button-bottom {
     background-color: #3882f6;
     border-radius: 10px;
     color: white;
     font-size: 18px;
     padding: 8px 30px;
+    font-weight: bold;
 }
 
 .placeholder {
     background: #6c747c;
     height: 100%;
-    width: 600px;
+    width: 550px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #f9faf8;
+    font-weight: 400;
+    font-size: 18px;
 }
 
 .information {
@@ -104,28 +110,33 @@ ul {
     font-size: 36px;
     font-weight: 800;
     color: #1f2937;
+    padding: 20px;
 }
 
 .cards {
     display: flex;
+    justify-content: center;
     padding-top: 20px;
     column-gap: 50px;
 }
 
 .card {
-    width: 100px;
-    height: 100px;
-    border: 3px solid #3882f6;
-    border-radius: 10px;
+    width: 160px;
+    height: 160px;
+    border: 4px solid #3882f6;
+    border-radius: 15px;
 }
 
 .labels {
     display: flex;
-    width: 100px;
+    width: 55%;
     justify-content: center;
     text-align: center;
-    gap: 75px;
+    gap: 50px;
+    color: #6c747c;
+    padding-top: 10px;
     padding-bottom: 80px;
+    font-size: 18px;
 }
 
 .quote {
@@ -135,56 +146,58 @@ ul {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 300px;
+    height: 325px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
 .text {
-    width: 70%;
+    width: 52%;
     font-size: 36px;
-    font-weight: lighter;
+    font-weight: 200;
     font-style: italic;
     color: #1f2937;
 }
 
 .author {
-    width: 70%;
+    width: 50%;
     font-weight: bold;
     text-align: right;
     color: #1f2937;
     justify-content: flex-end;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .sign-up {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    width: 800px;
+    width: 70%;
     background: #3882f6;
     border-radius: 10px;
     color: #f9faf8;
-    margin: 80px auto;
+    margin: 90px auto;
+    padding: 10px 75px;
 }
 
 .message {
     align-items: center;
     padding: 40px 80px;
+    font-size: 18px;
 }
 
 #title {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 24px;
 }
 
-#button {
-    border-radius: 10px;
-    border: white solid 2px;
-    padding: 8px 40px;
+.button-bottom {
+    border-color: white;
 }
 
 .footer {
+    font-size: 18px;
     height: 100px;
     color: #f9faf8;
+    justify-content: center;
 }
